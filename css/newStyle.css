@@ -32,14 +32,14 @@ nav .active{
     width: 10%;
 }
 footer{
-    position: absolute;
+    position:static;
     bottom: 0;
     left: 0;
     right: 0;
     background: #111;
     color: #fff;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 40px;
 
 }
@@ -103,12 +103,24 @@ footer{
     font-size: 16px;
     text-decoration: none;
 }
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0,0.5)), url('https://www.crafttrip.in/image/cache/catalog/radha-krishna/287-mayapur-temple-iskcon-krishna-painting--800x534w.jpg');
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+.space{
+    height: 50px;
+}
 @media only screen and (max-width: 600px) {
     #banner{
         display: none;
@@ -126,5 +138,9 @@ footer{
     }
     .desk{
         display: none;
+    }
+    .hero-text{
+        top: 60%;
+        left: 5%;
     }
 }
