@@ -121,6 +121,42 @@ footer{
 .space{
     height: 50px;
 }
+
+#row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#row2 .image{
+    flex-basis: 40%;
+    width: 30%;
+    margin-right: 200px;
+}
+#row2 .text{
+    font-size: 20px;
+    padding-left: 20px;
+    width: 60%;
+    margin-left: 200px;
+}
+#row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+embed{
+    max-width: 100%;
+}
+#row1 .image{
+    flex-basis: 40%;
+    width: 30%;
+    margin-left: 200px;
+}
+#row1 .text{
+    font-size: 20px;
+    padding-left: 20px;
+    width: 60%;
+    margin-right: 200px;
+}
 @media only screen and (max-width: 600px) {
     #banner{
         display: none;
@@ -142,5 +178,14 @@ footer{
     .hero-text{
         top: 60%;
         left: 5%;
+    }
+    #row1 .image{
+        margin-left: 0px;
+    }
+    #row1 .text{
+        margin-right: 0px;
+    }
+    #row2 .image{
+        width: 100%;
     }
 }
