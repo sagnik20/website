@@ -186,6 +186,9 @@ embed{
         margin-right: 0px;
     }
     #row2 .image{
-        width: 100%;
+        margin-right: 0px;
+    }
+    #row2 .text{
+        margin-left: 0px;
     }
 }
